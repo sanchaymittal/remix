@@ -1,5 +1,5 @@
-Running & Depolying transactions
-================================
+Run & Deploy
+============
 
 The Run tab allows you to send transactions to the current environment.
 
@@ -23,7 +23,7 @@ Environment:
     blockchain from scratch, the old one will not be saved.
 
 -   `Injected Provider`: Remix will connect to an injected
-    web3 provider. `Mist` and `Metamask` are example of
+    web3 provider. `Metamask` is an example of
     providers that inject web3, thus can be used with this
     option.
 

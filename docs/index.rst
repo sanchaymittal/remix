@@ -25,58 +25,69 @@ Useful links:
 
 - `Ðapp Developer resources (Ethereum wiki) <https://github.com/ethereum/wiki/wiki/Dapp-Developer-Resources>`__
 
-
 .. toctree::
    :maxdepth: 2
-   :caption: Quick start
+   :caption: New Layout Intro
 
    layout
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Tour of default modules
+
    file_explorer
    plugin_manager
-   settings_tab
-   terminal
-   run_tab
-   javascript_vm
-   udapp
-
-.. toctree::
-   :maxdepth: 2
-   :caption: Running remix locally
-
-   packages
-
-.. toctree::
-   :maxdepth: 2
-   :caption: Tour of typical modules
-
+   settings
    solidity_editor
-   compile_tab
-   contract_metadata
-   debugger_tab
-   analysis_tab
+   terminal
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Tour of typical solidity modules
+
+   compile
+   run
+   udapp
+   debugger
+   static_analysis
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Using Remix
    
-
-.. toctree::
-   :maxdepth: 2
-   :caption: Testing
-
-   unittesting_tab
-
-.. toctree::
-   :maxdepth: 2
-   :caption: Other Remix features
-
-   tutorial_remixd_filesystem
-
-.. toctree::
-   :maxdepth: 2
-   :caption: Tutorials and workshops
-
-   workshop_Building_smart_contracts_with_Remix
-   tutorial_eattheblock
+   contract_metadata
+   create_deploy
    tutorial_debug
-   tutorial_import
    tutorial_geth-remix
+   import
+   remixd
+   unittesting
+   
+.. toctree::
+   :maxdepth: 2
+   :caption: Building Plugins
+
+   remix_plugin.md
+
+.. toctree::
+   :maxdepth: 2
+   :caption: URLs & Downloads
+
+   locations
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Questions & Terms
+
+   faq
+   glossary
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Tutorials and workshops slides
+
+   remix_tutorials_github
+   tutorial_eattheblock
 
 .. toctree::
    :maxdepth: 2
@@ -85,11 +96,3 @@ Useful links:
    code_contribution_guide
    community
    support
-
-.. toctree::
-   :maxdepth: 2
-   :caption: Building Plugins
-
-   remix_plugin.md
-   remix_plugin_api.md
-

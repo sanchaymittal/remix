@@ -41,7 +41,7 @@ not be synced to the main or ropsten network.
 `<test-chain-directory>` is the folder where keys and chain data will be
 stored.
 
-`--ipcpath` defines the end point that other apps (like Mist) use to
+`--ipcpath` defines the end point that other apps (like Metamask) use to
 talk to geth.
 
 `--datadir` specifies the data directory.
@@ -134,14 +134,14 @@ and here is the front end:
 <div>    
     <div>Donation Contract</div>
     <br/>
-    <input id='contractaddress' placeholder='contract address'></intput>
+    <input id='contractaddress' placeholder='contract address' />
     <br/>
     <div>
         <br/>
-        <input id='fromGive' placeholder='from' ></intput><input placeholder='amount' id='valueGive'></intput><button id="fallbackbtn" onclick="donate()">give</button>
+        <input id='fromGive' placeholder='from' /><input placeholder='amount' id='valueGive' /><button id="fallbackbtn" onclick="donate()">give</button>
         <br/>
         <br/>
-        <input id='fromMoveFund' placeholder='from' ></intput><input id='moveFundTo' placeholder='move to' ></intput><input id='amountToMove' placeholder='amount' ></intput><button id="movefundbtn" onclick="movefund()">moveFund</button>
+        <input id='fromMoveFund' placeholder='from' /><input id='moveFundTo' placeholder='move to' /><input id='amountToMove' placeholder='amount' /><button id="movefundbtn" onclick="movefund()">moveFund</button>
         <br/>
         <br/>
         <div id='wait' ></div>

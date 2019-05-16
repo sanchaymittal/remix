@@ -1,5 +1,5 @@
-Debugging
-=========
+Debugger
+========
 
 This module allows you to debug the transaction. It can be used to
 deploy transactions created from Remix and already mined transactions.
@@ -12,4 +12,4 @@ To get to the debugger - you can click the debug button in the terminal when a s
 ![](images/a-debugger.png)
 
 For more information about debugging, see the [Tutorial on debugging transactions with Remix
-](http://remix.readthedocs.io/en/latest/tutorial_debug.html)
+](tutorial_debug.html)

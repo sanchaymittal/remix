@@ -1,5 +1,5 @@
-Using the JavaScript VM
-========================
+Creating and Deploying a Contract
+================================
 
 There are 3 type of environments Remix can be plugged to:
 `Javascript VM`, `Injected provider`, or `Web3 provider`. (for details see [Running transactions](http://remix.readthedocs.io/en/latest/run_tab.html))
@@ -7,15 +7,17 @@ There are 3 type of environments Remix can be plugged to:
 Both `Web3 provider` and `Injected provider` require the use of an
 external tool.
 
-The external tool for `Web3 provider` is an Ethereum node the tools for
-`Injected provider` are Mist or Metamask.
+The external tool for `Web3 provider` is an Ethereum node and for
+`Injected provider` Metamask.
 
 The `JavaScript VM` mode is convenient because each execution runs in
-your browser. Thus reloading the page will restart Remix with an empty
-state.
+your browser and you don't need any other software or Ethereum node to run it. 
 
-So for performance purposes, it might also be better to use an external
-node.
+So, it is the easiest test environment - **no setup required!**
+
+But keep in mind that reloading the browser when you are in the Javascript VM will restart Remix in an empty state.
+
+For performance purposes ( which is to say - for testing in an environment that is closest to the mainnet), it might also be better to use an external node.
 
 Selecting the VM mode
 ---------------------
